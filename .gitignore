@@ -13,7 +13,8 @@
 
 #Unignore all from git
 !.git/**
-
+imagesForProcessing/**
+tempFiles/**
 # Prerequisites
 *.d
 
