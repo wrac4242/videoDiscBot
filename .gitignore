@@ -14,7 +14,8 @@
 #Unignore all from git
 !.git/**
 imagesForProcessing/**
-tempFiles/**
+out_files/**
+
 # Prerequisites
 *.d
 

@@ -1,4 +1,12 @@
+input image will be grayscale atm as aiming to send bad apple
+
 create a program that converts a given .png file into an ascii text
 of set height/width
 make it a python file and use as a module?
+function
+png_to_ascii(file_path_in, dir_out, intended_height, intended_width)
 
+takes the average of the pixels in the width and height, and uses that for text
+
+
+create another main file that can process a whole folder of pngs
