@@ -1,0 +1,4 @@
+create a program that converts a given .png file into an ascii text
+of set height/width
+make it a python file and use as a module?
+
