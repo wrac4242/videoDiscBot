@@ -5,6 +5,9 @@ import numpy as np
 #64 characters, makes maths easier
 colour_converter = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvuxrjft/\|(1{[?-_+~<i!lI;:,\"^`. "
 
+
+#maximum width should be 40
+
 #converts grayscale image to ascii
 def png_to_ascii(file_path_in, dir_out, intended_width):
     start_time = time.time()
@@ -13,6 +16,8 @@ def png_to_ascii(file_path_in, dir_out, intended_width):
 
     file_out = dir_out + file_path_in.split("/")[-1]
     print(file_out)
+
+    intended_width = min(intended_width, 40)
     #loads the image in
     #splits the image into chunks based on height and width
     #output colour is the average of those pixels
